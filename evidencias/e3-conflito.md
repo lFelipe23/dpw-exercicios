@@ -30,5 +30,5 @@ $ git log --graph --oneline --all
 O Git não conseguiu resolver o merge sozinho porque houve alterações concorrentes na mesma linha do mesmo arquivo (README.md). Como a branch atual (`main`) e a branch (`feat/titulo-b`) modificaram a linha 1 simultaneamente, o Git não sabe qual versão priorizar, pausando o processo para exigir a resolução manual do desenvolvedor (linhas alteradas em ambos os lados).
 
 **5. Links Permanentes:**
-- Link do commit de merge: [Aguardando Push]
-- Link do Network: [Aguardando Push]
+- Link do commit de merge: 553a5d5f027f2c030571fa9a91f19dd08bde2a4b
+- Link do Network: https://github.com/lFelipe23/dpw-exercicios.git/network

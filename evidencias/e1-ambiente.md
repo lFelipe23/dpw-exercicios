@@ -33,7 +33,7 @@ $
 ```
 
 ## Link permanente para o .gitignore
-[Colocaremos o link aqui no próximo passo]
+https://github.com/lFelipe23/dpw-exercicios/blob/5556826e6ac55ad09427d39ad2c764efabef8e5d/.gitignore
 
 ## Por que o pnpm-lock.yaml é versionado e o node_modules/ não?
 O `pnpm-lock.yaml` é versionado porque ele trava as versões exatas de cada dependência, garantindo que o ambiente seja 100% reprodutível em qualquer máquina (evitando bugs de versões diferentes). Já a pasta `node_modules/` não é versionada porque é extremamente pesada (milhares de arquivos), contém binários específicos do sistema operacional de quem instalou e pode ser facilmente gerada a partir do lockfile.
