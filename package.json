@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "scripts": {
-    "verificar": "node --version && pnpm --version"
-  },
-  "devDependencies": {
-    "prettier": "^3.9.6"
-  }
-}

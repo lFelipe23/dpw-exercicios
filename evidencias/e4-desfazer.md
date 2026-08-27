@@ -149,3 +149,24 @@ $ git log --oneline -2
 7afe5b6 (HEAD -> main) Revert "commit que sera revertido"
 1b73566 (origin/main) commit que sera revertido
 ```
+
+### Prova Final: Histórico do Reflog
+```bash
+Felipe@Monarca01 MINGW64 ~/dev/dpw-exercicios (main)
+$ git reflog -15
+e2f91fb (HEAD -> main, origin/main) HEAD@{0}: commit: docs: adiciona roteiro de diagnostico (E00.5)
+02b1372 HEAD@{1}: commit: docs: adiciona evidencia de desfazer sem panico (E00.4)
+7afe5b6 HEAD@{2}: revert: Revert "commit que sera revertido"
+1b73566 HEAD@{3}: commit: commit que sera revertido
+ec137e3 HEAD@{4}: reset: moving to HEAD~1
+1d76a0e HEAD@{5}: commit (amend): docs: altera o readme corretamente
+76f4f54 HEAD@{6}: commit: docs: alterando o readme de forma erada
+ec137e3 HEAD@{7}: commit: docs: preenche links permanentes no E00.1 e E00.3
+5556826 HEAD@{8}: commit: docs: adiciona evidencia de conflito de merge (E00.3)
+553a5d5 HEAD@{9}: commit (merge): docs: resolve conflito mantendo a versao A
+2f8a310 (feat/titulo-a) HEAD@{10}: checkout: moving from feat/titulo-b to main
+8d871d3 (feat/titulo-b) HEAD@{11}: commit: docs: altera titulo para versao B
+2bc5786 HEAD@{12}: checkout: moving from main to feat/titulo-b
+2f8a310 (feat/titulo-a) HEAD@{13}: merge feat/titulo-a: Fast-forward
+2bc5786 HEAD@{14}: checkout: moving from feat/titulo-a to main
+```
